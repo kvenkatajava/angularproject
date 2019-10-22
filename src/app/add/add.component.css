@@ -1,0 +1,25 @@
+.height{
+    height: 5em;
+    width: 7em;
+  }
+  
+  .btn-group{
+    margin-left: 8em;
+    padding-block-start: 3em;
+    left: 10em;
+  }
+
+  .form-group {
+    padding: 2em;
+   
+  }
+
+  .form-control{
+    position: relative;
+    left: 7px;
+  }
+  .help-block{
+    color: red;
+  }
+
+  

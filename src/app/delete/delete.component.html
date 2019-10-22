@@ -1,0 +1,17 @@
+<form (ngSubmit)= "onSubmit(f.value)" #f="ngForm">
+    <div class="form-group">
+      <label > Enter 1st Name</label>
+      <input
+       type="text"
+       class="form-control"
+       id="formGroupExampleInput"
+       ngModel
+       name= firstname
+       required
+       firstname
+       #firstname="ngModel">
+
+
+       <button class="heightbutton" 
+              type="submit"
+              routerLink="/successful">Delete</button>

@@ -1,0 +1,38 @@
+<div>
+ 
+        <form (ngSubmit)= "onSubmit(f.value)" #f="ngForm">
+                <div class="form-group">
+                  <label > Enter 1st Name</label>
+                  <input
+                   type="text"
+                   class="form-control"
+                   id="formGroupExampleInput"
+                   ngModel
+                   name= firstname
+                   required
+                   firstname
+                   #firstname="ngModel">
+                  
+                </div>
+                <div class="form-group">
+                  <label >Enter mobile number</label>
+                  <input 
+                  type="number" 
+                  class="form-control" 
+                  id="formGroupExampleInput2"
+                  ngModel
+                  name= number2
+                  required
+                  number2
+                  #number2="ngModel">
+                  
+                </div>     
+
+              <button 
+              class="heightsend" 
+              type="submit"
+              routerLink="/successful">Send those two values to DB</button>
+
+      </form>
+   
+</div>

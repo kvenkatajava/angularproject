@@ -1,0 +1,35 @@
+.height{
+    height: 5em;
+    width: 7em;
+  }
+  
+  .btn-group{
+    margin-left: 8em;
+    padding-block-start: 3em;
+    left: 10em;
+  }
+
+  .heightsend{
+    height: 5em;
+    width: 9em;
+  }
+
+  .heightbutton{
+    height: 21px;
+    width: 60px;
+    position: relative;
+    left: 22px;
+
+  }
+  .form-control{
+    position: relative;
+    left: 6px;
+  }
+  .form-group{
+    margin: 5em;
+  }
+
+
+  
+
+  
